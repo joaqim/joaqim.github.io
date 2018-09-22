@@ -96,6 +96,18 @@ div.title {
     letter-spacing: .1em;
 }
 
+h1.title {
+    margin: -1em -1em 0;
+    font-size: 200%;
+    font-weight: bold;
+    background: #369;
+    color: #fff;
+    padding: .75em 1em;
+    letter-spacing: .1em;
+    line-height: 110%;
+}
+
+
 h1 {
     background: #369 none repeat scroll 0 0;
     font-family: "Cardo", "Palatino Linotype", "Book Antiqua", Palatino, serif;
