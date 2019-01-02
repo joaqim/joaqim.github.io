@@ -1,5 +1,5 @@
-HTTrack3.49-2 launched on Wed, 02 Jan 2019 03:10:32 at http://ul.bergeling.com
-(httrack -%e2 http://ul.bergeling.com )
+HTTrack3.49-2 launched on Wed, 02 Jan 2019 03:35:48 at http://ul.bergeling.com
+(httrack -%e3 http://ul.bergeling.com -%l se )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
