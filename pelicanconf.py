@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Joaqim Planstedt'
-SITENAME = 'joaqim.github.io'
-SITEURL = ''
+SITENAME = 'joaqim.github.io/output'
+SITEURL = 'joaqim.github.io/output'
 
 PATH = 'content'
 
