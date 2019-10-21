@@ -65,7 +65,7 @@ endif
 
 
 devserver:
-	@echo 'Starting devserver at http://localhost:800 with auto-regeneration on change      '
+	@echo 'Starting devserver at http://localhost:8000 with auto-regeneration on change      '
 	@echo '---------------------------------------------------------------------------------'
 ifdef PORT
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(PORT)

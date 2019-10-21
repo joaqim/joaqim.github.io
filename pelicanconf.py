@@ -45,7 +45,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-USE_FOLDER_AS_CATEGORY = True 
+USE_FOLDER_AS_CATEGORY = True
 PAGE_PATHS = ['pages']
 
 # Uncomment following line if you want document-relative URLs when developing
