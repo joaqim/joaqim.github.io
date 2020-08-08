@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>www.joaqim.xyz</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/all.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2020-08-08T16:31:00+02:00</updated><entry><title>AIDungeon Import &amp; Export Plugin</title><link href="https://joaqim.xyz/aidungeon-import-export-plugin.html" rel="alternate"></link><published>2020-08-08T16:31:00+02:00</published><updated>2020-08-08T16:31:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/aidungeon-import-export-plugin.html</id><summary type="html">&lt;p&gt;Greasemonkey Plugin&lt;/p&gt;
 </summary><content type="html">&lt;aside class="m-block m-danger"&gt;
-&lt;h3&gt;Warning:
-&lt;em&gt;The script might overwrite existing entries (It really shouldn’t but I haven’t tested it enough), use with caution.&lt;/em&gt;&lt;/h3&gt;
+&lt;h3&gt;Warning:&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;The script might overwrite existing entries (It really shouldn’t but I haven’t tested it enough), use with caution.&lt;/em&gt;&lt;/p&gt;
 &lt;/aside&gt;
 &lt;p&gt;Link to greasyfork plugin: &lt;a href="https://greasyfork.org/en/scripts/408237-aidungeon-import-and-export-world-entries-as-json"&gt;AIDungeon - Import and Export World Entries as Json&lt;/a&gt;&lt;/p&gt;
 &lt;section id="example-of-json-of-world-entries"&gt;
@@ -25,8 +25,8 @@ You can also add optional “show”: true/false ( if not assigned, it default t
 &lt;br /&gt;
 &lt;/p&gt;
 &lt;aside class="m-frame"&gt;
-&lt;h3&gt;Note
-The scripts tries to emulate the user clicking on “Add World Info” button to fill the next entry, this gets slower and slower the more entries you have. This has something to do with AIDungeon itself, not the script.&lt;/h3&gt;
+&lt;h3&gt;Note&lt;/h3&gt;
+&lt;p&gt;The scripts tries to emulate the user clicking on “Add World Info” button to fill the next entry, this gets slower and slower the more entries you have. This has something to do with AIDungeon itself, not the script.&lt;/p&gt;
 &lt;/aside&gt;
 &lt;p&gt;
 &lt;br /&gt;
