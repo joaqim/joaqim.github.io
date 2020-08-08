@@ -1,7 +1,7 @@
 /*
     This file is part of m.css.
 
-    Copyright © 2017, 2018, 2019 Vladimír Vondruš <mosra@centrum.cz>
+    Copyright © 2017, 2018, 2019, 2020 Vladimír Vondruš <mosra@centrum.cz>
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -30,6 +30,7 @@ html {
 body {
   font-family: var(--font);
   font-size: 1rem;
+  line-height: var(--line-height);
   color: var(--color);
 }
 
@@ -78,33 +79,24 @@ hr {
 blockquote, hr {
   border-color: var(--line-color);
 }
-pre {
-  font-family: var(--code-font), monospace, monospace; /* https://en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
-  font-size: var(--code-font-size);
-  padding: 0.5rem 1rem;
-  color: var(--code-color);
-  background-color: var(--code-background-color);
-  border-radius: var(--border-radius);
-  overflow-x: auto;
-  margin-top: 0; /* stupid defaults */
-}
-pre.m-console {
-  background-color: var(--console-background-color);
-}
 
 /* Inline elements */
-abbr {
-  cursor: help;
-  text-decoration: underline dotted;
-}
-sub, sup { /* https://gist.github.com/unruthless/413930 */
+strong, .m-text.m-strong { font-weight: bold; }
+em, .m-text.m-em { font-style: italic; }
+s, .m-text.m-s { text-decoration: line-through; }
+sub, sup, .m-text.m-sub, .m-text.m-sup {
+  /* https://gist.github.com/unruthless/413930 */
   font-size: 0.75rem;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-sup { top: -0.35rem; }
-sub { bottom: -0.2rem; }
+sup, .m-text.m-sup { top: -0.35rem; }
+sub, .m-text.m-sub { bottom: -0.2rem; }
+abbr {
+  cursor: help;
+  text-decoration: underline dotted;
+}
 a {
   color: var(--link-color);
 }
@@ -121,15 +113,33 @@ mark {
   background-color: var(--mark-background-color);
   color: var(--mark-color);
 }
-code {
-  font-family: var(--code-font), monospace, monospace;
+.m-link-wrap {
+  word-break: break-all;
+}
+
+/* Block/inline code */
+pre, code {
+  font-family: var(--code-font), monospace, monospace; /* https://en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
   font-size: var(--code-font-size);
-  padding: 0.125rem;
   color: var(--code-color);
   background-color: var(--code-background-color);
 }
-code.m-console {
+pre.m-console, code.m-console {
+  color: var(--console-color);
   background-color: var(--console-background-color);
+}
+pre {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+  margin-top: 0; /* stupid defaults */
+}
+pre.m-console-wrap {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+code {
+  padding: 0.125rem;
 }
 
 /* Focus outline on link, canvas and input: match the focused header item. */
@@ -166,18 +176,9 @@ div.m-scroll {
 .m-text-bottom, table.m-table th.m-text-bottom, table.m-table td.m-text-bottom {
   vertical-align: bottom;
 }
-.m-text.m-small {
-  font-size: 85.4%;
-}
-.m-text.m-big {
-  font-size: 117%;
-}
-.m-text.m-strong {
-  font-weight: bold;
-}
-.m-text.m-em {
-  font-style: italic;
-}
+.m-text.m-tiny { font-size: 50.0%; }
+.m-text.m-small { font-size: 85.4%; }
+.m-text.m-big { font-size: 117%; }
 h1 .m-thin, h2 .m-thin, h3 .m-thin, h4 .m-thin, h5 .m-thin, h6 .m-thin {
   font-weight: normal;
 }
@@ -246,23 +247,50 @@ dl.m-diary:last-child {
 }
 dl.m-diary dt {
   font-weight: bold;
-  width: 3.5rem;
+  width: 6rem; /* Large enough so it can fit a date (Aug 27, 2019) as well */
   float: left;
   clear: both;
   padding-top: 0.25rem;
 }
 dl.m-diary dd {
   padding-top: 0.25rem;
-  padding-left: 3.5rem;
+  padding-left: 6rem;
+  margin-left: 0;
+}
+
+/* Footnotes, footnote references */
+a.m-footnote, dl.m-footnote dd span.m-footnote {
+  top: -0.35rem; /* Same as .m-text.m-sup */
+  font-size: 0.75rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+a.m-footnote, dl.m-footnote dd span.m-footnote a {
+  text-decoration: none;
+}
+a.m-footnote::before { content: '['; }
+a.m-footnote::after { content: ']'; }
+dl.m-footnote dt {
+  width: 1.5rem;
+  float: left;
+  clear: both;
+}
+dl.m-footnote dd {
+  margin-left: 1.5rem;
+}
+dl.m-footnote { /* Same as .m-small */
+  font-size: 85.4%;
+}
+dl.m-footnote dd span.m-footnote a {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Note, frame, block */
 .m-note {
   border-radius: var(--border-radius);
   padding: 1rem;
-}
-.m-note pre, .m-note code {
-  background-color: var(--code-note-background-color);
 }
 .m-frame {
   background-color: var(--background-color);
@@ -434,6 +462,32 @@ table.m-table tr.m-dim th, table.m-table th.m-dim {
   border-color: var(--background-color);
 }
 
+/* Code on a colored background has a semi-transparent background */
+.m-note pre, .m-note code,
+table.m-table tr.m-default pre, table.m-table tr.m-default code,
+table.m-table td.m-default pre, table.m-table td.m-default code,
+table.m-table th.m-default pre, table.m-table th.m-default code,
+table.m-table tr.m-primary pre, table.m-table tr.m-primary code,
+table.m-table td.m-primary pre, table.m-table td.m-primary code,
+table.m-table th.m-primary pre, table.m-table th.m-primary code,
+table.m-table tr.m-success pre, table.m-table tr.m-success code,
+table.m-table td.m-success pre, table.m-table td.m-success code,
+table.m-table th.m-success pre, table.m-table th.m-success code,
+table.m-table tr.m-warning pre, table.m-table tr.m-warning code,
+table.m-table td.m-warning pre, table.m-table td.m-warning code,
+table.m-table th.m-warning pre, table.m-table th.m-warning code,
+table.m-table tr.m-danger pre, table.m-table tr.m-danger code,
+table.m-table td.m-danger pre, table.m-table td.m-danger code,
+table.m-table th.m-danger pre, table.m-table th.m-danger code,
+table.m-table tr.m-info pre, table.m-table tr.m-info code,
+table.m-table td.m-info pre, table.m-table td.m-info code,
+table.m-table th.m-info pre, table.m-table th.m-info code,
+table.m-table tr.m-dim pre, table.m-table tr.m-dim code,
+table.m-table td.m-dim pre, table.m-table td.m-dim code,
+table.m-table th.m-dim pre, table.m-table th.m-dim code {
+  background-color: var(--code-note-background-color);
+}
+
 /* Image. Ensure everything is done for both <img> and <svg>. */
 img.m-image, svg.m-image {
   display: block;
@@ -449,6 +503,11 @@ img.m-image, svg.m-image, div.m-image img, div.m-image svg {
 }
 div.m-image.m-fullwidth img, div.m-image.m-fullwidth svg {
   width: 100%;
+}
+/* Image badge. Deliberately omitting <svg> since I don't see any use for those
+   as avatars yet. */
+img.m-image.m-badge, div.m-image.m-badge img {
+  border-radius: 50%;
 }
 
 /* Figure. Ensure everything is done for both <img> and <svg>. */
@@ -563,6 +622,16 @@ figure.m-figure.m-fullwidth:after {
   margin: -1rem -1rem 1rem -1rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+/* "Nopad" code block inside a code/console figure -- show code and console
+   output nicely packed together */
+.m-code-figure > pre.m-nopad, .m-console-figure > pre.m-nopad {
+  margin-left: -0.875rem;
+  margin-right: -0.875rem;
+  margin-top: -1rem;
+  margin-bottom: -0.875rem;
+  padding-left: 0.875rem;
 }
 
 /* Figure caption */
@@ -828,18 +897,18 @@ pre.m-code span.hll {
 }
 
 /* Inverted code block / inline code */
-.m-code.m-inverted {
-  color: var(--code-inverted-color);
-}
-.m-code.m-inverted > span {
+.m-code.m-inverted > span, .m-console.m-inverted > span {
   opacity: 0.3333;
 }
-.m-code.m-inverted > span.hll {
-  color: var(--color);
+.m-code.m-inverted > span.hll, .m-console.m-inverted > span.hll {
   opacity: 1;
-  background-color: transparent;
+  background-color: transparent; /* TODO: handle this in pygments directly */
   border-color: transparent;
 }
+.m-code.m-inverted { color: var(--code-inverted-color); }
+.m-console.m-inverted { color: var(--console-inverted-color); }
+.m-code.m-inverted > span.hll { color: var(--code-color); }
+.m-cosole.m-inverted > span.hll { color: var(--console-color); }
 
 /* Code color swatch */
 .m-code-color {
@@ -964,7 +1033,7 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
   color: var(--dim-link-active-color);
 }
 .m-block.m-flat { border-color: transparent; }
-.m-block.m-flat h3, .m-block.m-flat h4, .m-block.m-flat h5. .m-block.m-flat h6 {
+.m-block.m-flat h3, .m-block.m-flat h4, .m-block.m-flat h5, .m-block.m-flat h6 {
   color: var(--default-color);
 }
 

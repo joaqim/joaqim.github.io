@@ -15,8 +15,8 @@
   <meta property="og:title" content="AIDungeon Import &amp; Export Plugin" />
   <meta name="twitter:title" content="AIDungeon Import &amp; Export Plugin" />
   <meta property="og:url" content="https://joaqim.xyz/aidungeon-import-export-plugin.html" />
-  <meta property="og:description" content="AIDungeon - Import and Export World Entries as Json" />
-  <meta name="twitter:description" content="AIDungeon - Import and Export World Entries as Json" />
+  <meta property="og:description" content="Greasemonkey Plugin" />
+  <meta name="twitter:description" content="Greasemonkey Plugin" />
   <meta name="twitter:card" content="summary" />
   <meta property="og:type" content="article" />
 </head>
@@ -49,11 +49,47 @@
           </time>
           AIDungeon Import &amp; Export Plugin
         </a></h1>
-        <p><a href="https://greasyfork.org/en/scripts/408237-aidungeon-import-and-export-world-entries-as-json">AIDungeon - Import and Export World Entries as Json</a></p>
+        <p>Greasemonkey Plugin</p>
       </header>
       <div class="m-clearfix-l"></div>
+<!-- content -->
+<aside class="m-block m-danger">
+<h3>Warning:
+<em>The script might overwrite existing entries (It really shouldn’t but I haven’t tested it enough), use with caution.</em></h3>
+</aside>
+<p>Link to greasyfork plugin: <a href="https://greasyfork.org/en/scripts/408237-aidungeon-import-and-export-world-entries-as-json">AIDungeon - Import and Export World Entries as Json</a></p>
+<section id="example-of-json-of-world-entries">
+<h2>Example of Json of World Entries:</h2>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+   <span class="p">{</span><span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;This is a key&quot;</span><span class="p">,</span> <span class="nt">&quot;entry&quot;</span><span class="p">:</span> <span class="s2">&quot;This is the World Entry&quot;</span><span class="p">},</span>
+
+   <span class="p">{</span><span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;This is another key&quot;</span><span class="p">,</span> <span class="nt">&quot;entry&quot;</span><span class="p">:</span> <span class="s2">&quot;This is another World Entry&quot;</span><span class="p">},</span>
+
+   <span class="p">{</span><span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;This is a key&quot;</span><span class="p">,</span> <span class="nt">&quot;entry&quot;</span><span class="p">:</span> <span class="s2">&quot;This is the World Entry&quot;</span><span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+<p>
+<br />
+You can also add optional “show”: true/false ( if not assigned, it default to false ) to toggle hidden world info:<br />
+</p>
+<div class="highlight"><pre><span></span><span class="p">{</span><span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;key&quot;</span><span class="p">,</span> <span class="nt">&quot;entry&quot;</span><span class="p">:</span> <span class="s2">&quot;entry&quot;</span><span class="p">,</span> <span class="nt">&quot;show&quot;</span><span class="p">:</span> <span class="kc">true</span> <span class="p">}</span>
+</pre></div>
+<p>
+<br />
+</p>
+<aside class="m-frame">
+<h3>Note
+The scripts tries to emulate the user clicking on “Add World Info” button to fill the next entry, this gets slower and slower the more entries you have. This has something to do with AIDungeon itself, not the script.</h3>
+</aside>
+<p>
+<br />
+Feedback or suggestions are welcome.<br />
+<br />
+</p>
+</section>
+<!-- /content -->
       <footer>
-        <p>Posted by <a href="https://joaqim.xyz/author/joaqim-planstedt.html">Joaqim Planstedt</a> on <time datetime="2020-08-08T16:31:00+02:00">Sat 08 August 2020</time> in <a href="https://joaqim.xyz/category/article.html">article</a>. Tags: <a href="https://joaqim.xyz/tag/aidungeon.html">AIDungeon</a>, <a href="https://joaqim.xyz/tag/plugin.html">plugin</a>.</p>
+        <p>Posted by <a href="https://joaqim.xyz/author/joaqim-planstedt.html">Joaqim Planstedt</a> on <time datetime="2020-08-08T16:31:00+02:00">Sat 08 August 2020</time> in <a href="https://joaqim.xyz/category/article.html">article</a>. Tags: <a href="https://joaqim.xyz/tag/aidungeon.html">AIDungeon</a>, <a href="https://joaqim.xyz/tag/greasemonkey.html">greasemonkey</a>, <a href="https://joaqim.xyz/tag/plugin.html">plugin</a>.</p>
       </footer>
     </article>
     <nav class="m-navpanel m-col-m-2">
@@ -65,6 +101,7 @@
       <ul class="m-tagcloud">
         <li class="m-tag-5"><a href="https://joaqim.xyz/tag/aidungeon.html">AIDungeon</a></li>
         <li class="m-tag-5"><a href="https://joaqim.xyz/tag/corrade.html">corrade</a></li>
+        <li class="m-tag-5"><a href="https://joaqim.xyz/tag/greasemonkey.html">greasemonkey</a></li>
         <li class="m-tag-5"><a href="https://joaqim.xyz/tag/magnum.html">magnum</a></li>
         <li class="m-tag-5"><a href="https://joaqim.xyz/tag/plugin.html">plugin</a></li>
         <li class="m-tag-5"><a href="https://joaqim.xyz/tag/react.html">react</a></li>
