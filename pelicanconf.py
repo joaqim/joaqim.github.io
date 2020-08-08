@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Joaqim Planstedt'
-SITENAME = 'Joaqim.xyz'
-SITEURL = ''
+SITENAME = 'www.joaqim.xyz'
+SITEURL = 'www.joaqim.xyz'
 PATH = 'content'
 
 
@@ -57,7 +57,8 @@ M_SITE_LOGO_TEXT = 'Joaqim.xyz'
 M_LINKS_NAVBAR1 = [
             #('Features', 'features/', 'features', []),
             #('Showcase', 'showcase/', 'showcase', []),
-            ('UL', 'ul/', 'ul', []) ]
+            ('UL', 'ul/', 'ul', []),
+            ('Kyuu', 'pages/kyuu', 'kyuu', []) ]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]', [
     #('News', 'blog/news/', ''),
@@ -75,11 +76,12 @@ M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i
 M_THEME_COLOR = '#22272e'
 
 PLUGIN_PATHS = [
-        'repos/m.css/pelican-plugins',
+        'repos/m.css/plugins',
         'repos/'
         ]
-PLUGINS = ['m.htmlsanity',
-           ]
+PLUGINS = ['m.htmlsanity', 'm.components' ]
+M_HTMLSANITY_SMART_QUOTES = True
+M_HTMLSANITY_HYPHENATION = True
 
 M_FINE_PRINT = SITENAME + """. Powered by `Pelican <https://getpelican.com>`_
     and `m.css <https://mcss.mosra.cz>`_."""
