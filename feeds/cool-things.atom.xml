@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Joaqim.xyz - Cool things</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/cool-things.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2019-10-21T15:07:00+02:00</updated><entry><title>Kyuu</title><link href="https://joaqim.xyz/kyuu.html" rel="alternate"></link><published>2019-10-21T15:07:00+02:00</published><updated>2019-10-21T15:07:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-10-21:/kyuu.html</id><summary type="html">&lt;p&gt;This article has a cool summary.&lt;/p&gt;
+</summary><content type="html">&lt;img src="https://joaqim.xyz/images/487_sv-hd.png" /&gt;
+&lt;img src="https://joaqim.xyz/images/488.png" /&gt;
+&lt;img src="https://joaqim.xyz/images/489.png" /&gt;
+&lt;img src="https://joaqim.xyz/images/490.png" /&gt;
+</content><category term="Cool things"></category><category term="cool"></category><category term="article"></category><category term="mine"></category></entry></feed>
