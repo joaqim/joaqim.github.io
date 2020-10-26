@@ -67,7 +67,7 @@ M_LINKS_NAVBAR1 = [
 
 
 
-THEME = 'repos/m.css/pelican-theme'
+THEME = 'm.css/pelican-theme'
 THEME_STATIC_DIR = 'static'
 DIRECT_TEMPLATES = ['index']
 
@@ -75,11 +75,9 @@ M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i
         '/static/m-dark.css']
 M_THEME_COLOR = '#22272e'
 
-PLUGIN_PATHS = [
-        'repos/m.css/plugins',
-        'repos/'
-        ]
+PLUGIN_PATHS = [ 'm.css/plugins/m' ]
 PLUGINS = ['m.htmlsanity', 'm.components' ]
+
 M_HTMLSANITY_SMART_QUOTES = True
 M_HTMLSANITY_HYPHENATION = True
 
