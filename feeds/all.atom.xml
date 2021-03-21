@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>www.joaqim.xyz</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/all.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2020-08-08T22:04:00+02:00</updated><entry><title>SimpleScreenshot C++ Library</title><link href="https://joaqim.xyz/simplescreenshot-c-library.html" rel="alternate"></link><published>2020-08-08T22:04:00+02:00</published><updated>2020-08-08T22:04:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/simplescreenshot-c-library.html</id><summary type="html">&lt;p&gt;Sim&amp;shy;ple&amp;shy;Screen&amp;shy;shot&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>www.joaqim.xyz</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/all.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2020-08-08T22:04:00+02:00</updated><entry><title>SimpleScreenshot C++ Library</title><link href="https://joaqim.xyz/simplescreenshot-c-library.html" rel="alternate"></link><published>2020-08-08T22:04:00+02:00</published><updated>2020-08-08T22:04:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/simplescreenshot-c-library.html</id><summary type="html">&lt;p&gt;SimpleScreen&amp;shy;shot&lt;/p&gt;
 </summary><content type="html">&lt;aside class="m-frame"&gt;
 &lt;h3&gt;A simple screeshot library (linux, windows):
-&lt;a href="https://github.com/joaqim/SimpleScreenshot"&gt;github.com/joaqim/Sim&amp;shy;ple&amp;shy;Screen&amp;shy;shot&lt;/a&gt;&lt;/h3&gt;
+&lt;a href="https://github.com/joaqim/SimpleScreenshot"&gt;git&amp;shy;hub.com/joaqim/SimpleScreen&amp;shy;shot&lt;/a&gt;&lt;/h3&gt;
 &lt;/aside&gt;
-</content><category term="article"></category><category term="c++"></category><category term="screenshot"></category><category term="ocr"></category><category term="github"></category></entry><entry><title>AIDungeon Import &amp; Export Plugin</title><link href="https://joaqim.xyz/aidungeon-import-export-plugin.html" rel="alternate"></link><published>2020-08-08T16:31:00+02:00</published><updated>2020-08-08T16:31:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/aidungeon-import-export-plugin.html</id><summary type="html">&lt;p&gt;Grease&amp;shy;mon&amp;shy;key Plug&amp;shy;in&lt;/p&gt;
+</content><category term="article"></category><category term="c++"></category><category term="screenshot"></category><category term="ocr"></category><category term="github"></category></entry><entry><title>AIDungeon Import &amp; Export Plugin</title><link href="https://joaqim.xyz/aidungeon-import-export-plugin.html" rel="alternate"></link><published>2020-08-08T16:31:00+02:00</published><updated>2020-08-08T16:31:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/aidungeon-import-export-plugin.html</id><summary type="html">&lt;p&gt;Grease&amp;shy;mon&amp;shy;key Plu&amp;shy;gin&lt;/p&gt;
 </summary><content type="html">&lt;aside class="m-block m-danger"&gt;
 &lt;h3&gt;Warning:&lt;/h3&gt;
-&lt;p&gt;The script &lt;em&gt;might&lt;/em&gt; over&amp;shy;write ex&amp;shy;ist&amp;shy;ing en&amp;shy;tries (It re&amp;shy;al&amp;shy;ly shouldn’t but I haven’t test&amp;shy;ed it enough,) use with cau&amp;shy;tion.&lt;/p&gt;
+&lt;p&gt;The script &lt;em&gt;might&lt;/em&gt; over&amp;shy;write ex&amp;shy;ist&amp;shy;ing entries (It really shouldn’t but I haven’t tested it enough,) use with cau&amp;shy;tion.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;p&gt;Link to greasy&amp;shy;fork plug&amp;shy;in: &lt;a href="https://greasyfork.org/en/scripts/408237-aidungeon-import-and-export-world-entries-as-json"&gt;AIDun&amp;shy;geon - Im&amp;shy;port and Ex&amp;shy;port World En&amp;shy;tries as Json&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to greasy&amp;shy;fork plu&amp;shy;gin: &lt;a href="https://greasyfork.org/en/scripts/408237-aidungeon-import-and-export-world-entries-as-json"&gt;AIDun&amp;shy;geon - Im&amp;shy;port and Ex&amp;shy;port World Entries as Json&lt;/a&gt;&lt;/p&gt;
 &lt;section id="example-of-json-of-world-entries"&gt;
 &lt;h2&gt;Example of Json of World Entries:&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;
@@ -22,7 +22,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;br /&gt;
-You can al&amp;shy;so add op&amp;shy;tion&amp;shy;al “show”: true/false ( if not as&amp;shy;signed, it de&amp;shy;fault to false ) to tog&amp;shy;gle hid&amp;shy;den world in&amp;shy;fo:&lt;br /&gt;
+You can also add op&amp;shy;tion&amp;shy;al “show”: true/false ( if not as&amp;shy;signed, it de&amp;shy;fault to false ) to toggle hid&amp;shy;den world info:&lt;br /&gt;
 &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;key&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;key&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;&amp;quot;entry&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;entry&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;&amp;quot;show&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -31,7 +31,7 @@ You can al&amp;shy;so add op&amp;shy;tion&amp;shy;al “show”: true/false ( if
 &lt;/p&gt;
 &lt;aside class="m-frame"&gt;
 &lt;h3&gt;Note&lt;/h3&gt;
-&lt;p&gt;The scripts tries to em&amp;shy;u&amp;shy;late the us&amp;shy;er click&amp;shy;ing on “Add World In&amp;shy;fo” but&amp;shy;ton to fill the next en&amp;shy;try, this gets slow&amp;shy;er and slow&amp;shy;er the more en&amp;shy;tries you have. This has some&amp;shy;thing to do with AIDun&amp;shy;geon it&amp;shy;self, not the script.&lt;/p&gt;
+&lt;p&gt;The scripts tries to emu&amp;shy;late the user click&amp;shy;ing on “Add World Info” but&amp;shy;ton to fill the next entry, this gets slower and slower the more entries you have. This has some&amp;shy;thing to do with AIDun&amp;shy;geon it&amp;shy;self, not the script.&lt;/p&gt;
 &lt;/aside&gt;
 &lt;p&gt;
 &lt;br /&gt;
@@ -39,15 +39,15 @@ Feed&amp;shy;back or sug&amp;shy;ges&amp;shy;tions are wel&amp;shy;come.&lt;br /
 &lt;br /&gt;
 &lt;/p&gt;
 &lt;/section&gt;
-</content><category term="article"></category><category term="AIDungeon"></category><category term="greasemonkey"></category><category term="plugin"></category></entry><entry><title>Voronoi Sphere</title><link href="https://joaqim.xyz/voronoi-sphere.html" rel="alternate"></link><published>2019-02-26T16:16:00+01:00</published><updated>2019-02-26T16:16:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-26:/voronoi-sphere.html</id><summary type="html">&lt;p&gt;Cre&amp;shy;ate and Ren&amp;shy;der a Voronoi Sphere.&lt;/p&gt;
-&lt;p&gt;&lt;a href="/VoronoiSphere"&gt;Voronoi Sphere&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Cre&amp;shy;ate and Ren&amp;shy;der a Voronoi Sphere us&amp;shy;ing:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/xw0/spherical_voronoi_core"&gt;github.com/xw0/spher&amp;shy;i&amp;shy;cal_voronoi_&amp;shy;core&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/mosra/magnum"&gt;github.com/mosra/mag&amp;shy;num&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/mosra/corrade"&gt;github.com/mosra/cor&amp;shy;rade&lt;/a&gt;&lt;/p&gt;
-</summary><content type="html">&lt;iframe src="https://www.joaqim.xyz/VoronoiSphere" width="800" height="600" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="voronoi sphere"></category><category term="magnum"></category><category term="corrade"></category><category term="github"></category></entry><entry><title>UL Appen</title><link href="https://joaqim.xyz/ul-appen.html" rel="alternate"></link><published>2019-02-04T14:48:00+01:00</published><updated>2019-02-04T14:48:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-04:/ul-appen.html</id><summary type="html">&lt;p&gt;A swedish bus tick&amp;shy;et ap&amp;shy;pli&amp;shy;ca&amp;shy;tion mock-up.&lt;/p&gt;
-&lt;p&gt;I cre&amp;shy;at&amp;shy;ed this while learn&amp;shy;ing Re&amp;shy;act.&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/ul"&gt;github.com/joaqim/ul&lt;/a&gt;&lt;/p&gt;
+</content><category term="article"></category><category term="AIDungeon"></category><category term="greasemonkey"></category><category term="plugin"></category></entry><entry><title>Voronoi Sphere</title><link href="https://joaqim.xyz/voronoi-sphere.html" rel="alternate"></link><published>2019-02-26T16:16:00+01:00</published><updated>2019-02-26T16:16:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-26:/voronoi-sphere.html</id><summary type="html">&lt;p&gt;Cre&amp;shy;ate and Render a Voro&amp;shy;n&amp;shy;oi Sphere.&lt;/p&gt;
+&lt;p&gt;&lt;a href="/VoronoiSphere"&gt;Voro&amp;shy;n&amp;shy;oi Sphere&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cre&amp;shy;ate and Render a Voro&amp;shy;n&amp;shy;oi Sphere us&amp;shy;ing:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xw0/spherical_voronoi_core"&gt;git&amp;shy;hub.com/xw0/spher&amp;shy;ic&amp;shy;al_&amp;shy;voro&amp;shy;n&amp;shy;oi_&amp;shy;core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mosra/magnum"&gt;git&amp;shy;hub.com/mosra/mag&amp;shy;num&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mosra/corrade"&gt;git&amp;shy;hub.com/mosra/cor&amp;shy;rade&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;iframe src="https://www.joaqim.xyz/VoronoiSphere" width="800" height="600" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="voronoi sphere"></category><category term="magnum"></category><category term="corrade"></category><category term="github"></category></entry><entry><title>UL Appen</title><link href="https://joaqim.xyz/ul-appen.html" rel="alternate"></link><published>2019-02-04T14:48:00+01:00</published><updated>2019-02-04T14:48:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-04:/ul-appen.html</id><summary type="html">&lt;p&gt;A swedish bus tick&amp;shy;et ap&amp;shy;plic&amp;shy;a&amp;shy;tion mock-up.&lt;/p&gt;
+&lt;p&gt;I cre&amp;shy;ated this while learn&amp;shy;ing Re&amp;shy;act.&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/ul"&gt;git&amp;shy;hub.com/joaqim/ul&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="/ul"&gt;UL Ap&amp;shy;pen&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/Manad"&gt;Må&amp;shy;nad, Al&amp;shy;la Zon&amp;shy;er&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/Manad"&gt;Mån&amp;shy;ad, Alla Zon&amp;shy;er&lt;/a&gt;&lt;/p&gt;
 </summary><content type="html">&lt;iframe id="ul" src="https://www.joaqim.xyz/ul" width="315" height="560" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="react"></category><category term="javascript"></category><category term="github"></category></entry></feed>
