@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-05-28 Fri 19:30 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css"> img {max-width: 600px; }</style>
+<style type="text/css">
+<!--/*--><![CDATA[/*><!--*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.35;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-family:
+		system-ui,
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+hr {
+	height: 0;
+	color: inherit;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+table {
+	text-indent: 0;
+	border-color: inherit;
+}
+
+summary {
+	display: list-item;
+}
+
+:root {
+  --bc-tb: #000000;
+  --bc-block: #505050;
+  --clr: #000000;
+  --clr-tb-hd: #0a0a0a;
+  --clr-code: #0a0a0a;
+  --bg: #ffffff;
+  --bg-code: #d7d7d7;
+  --bg-tb-hd: #d7d7d7;
+  --bg-block: initial;
+  --clr-link: #0000c0;
+  --clr-title: #000000;
+  --clr-todo: #2544bb;
+  --bg-todo: initial;
+  --clr-done: #505050;
+  --bg-done: initial;
+  --ts-clr: #5317ac;
+  --mg: 20px;
+  --w-toc: 300px;
+  --bg-keyword: initial;
+  --clr-keyword: #5317ac;
+  --bg-constant: initial;
+  --clr-constant: #0000c0;
+  --bg-comment: initial;
+  --clr-comment: #505050;
+  --bg-comment-delimiter: initial;
+  --clr-comment-delimiter: initial;
+  --bg-function: initial;
+  --clr-function: #721045;
+  --bg-variable: initial;
+  --clr-variable: #00538b;
+  --bg-preprocessor: initial;
+  --clr-preprocessor: #a0132f;
+  --bg-doc: initial;
+  --clr-doc: #2a486a;
+  --bg-builtin: initial;
+  --clr-builtin: #8f0075;
+  --bg-string: initial;
+  --clr-string: #2544bb;
+}
+
+html {
+  font-family: Sans;
+}
+
+body {
+  background: #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body[data-theme='light'] {
+  background: var(--bg);
+  color: var(--clr);
+}
+
+body[data-theme='dark'] {
+  background: var(--bg);
+  color: var(--clr);
+  --bc-tb: #ffffff;
+  --bc-block: #a8a8a8;
+  --clr: #ffffff;
+  --clr-code: #f4f4f4;
+  --clr-tb-hd: #f4f4f4;
+  --bg: #000000;
+  --bg-tb-hd: #323232;
+  --bg-code: #323232;
+  --bg-block: initial;
+  --clr-link: #00bcff;
+  --clr-title: #ffffff;
+  --clr-todo: #79a8ff;
+  --bg-todo: initial;
+  --clr-done: #a8a8a8;
+  --bg-done: initial;
+  --ts-clr: #b6a0ff;
+  --mg: 20px;
+  --w-toc: 300px;
+  --bg-keyword: initial;
+  --clr-keyword: #b6a0ff;
+  --bg-constant: initial;
+  --clr-constant: #00bcff;
+  --bg-comment: initial;
+  --clr-comment: #a8a8a8;
+  --bg-comment-delimiter: initial;
+  --clr-comment-delimiter: initial;
+  --bg-function: initial;
+  --clr-function: #feacd0;
+  --bg-variable: initial;
+  --clr-variable: #00d3d0;
+  --bg-preprocessor: initial;
+  --clr-preprocessor: #ff9077;
+  --bg-doc: initial;
+  --clr-doc: #b0d6f5;
+  --bg-builtin: initial;
+  --clr-builtin: #f78fe7;
+  --bg-string: initial;
+  --clr-string: #79a8ff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #content {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #content {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    align-items: flex-end;
+  }
+  #content {
+    width: calc(100vw - var(--w-toc) - var(--mg) * 4);
+    margin-right: var(--mg);
+  }
+}
+
+h1 {
+  color: var(--clr-title);
+  text-align: center;
+}
+h2, h3, h4, h5, h6, h7 {
+  font-family: Sans Serif;
+}
+h2 {
+  line-height: 2.5em;
+}
+h2::before {
+  content: "◉ ";
+}
+h3::before {
+  content: "✸ ";
+}
+h4::before {
+  content: "▷ ";
+}
+
+code {
+  color: var(--clr-code);
+  background: var(--bg-code);
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+pre {
+  padding: 20px;
+  border: 1px solid var(--bc-block);
+  background: var(--bg-block);
+  font-size: 0.9rem;
+  overflow-x: scroll;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.todo {
+  color: var(--clr-todo);
+  background: var(--bg-todo);
+}
+
+.done {
+  color: var(--clr-done);
+  background: var(--bg-done);
+}
+
+.timestamp-wrapper {
+  font-size: 0.8rem;
+  color: var(--clr-ts);
+}
+
+table {
+  width: 100%;
+  border: 2px solid var(--bc-tb);
+}
+
+thead {
+  color: var(--clr-tb-hd);
+  background: var(--bg-tb-hd);
+}
+
+td, th {
+  border: thin solid var(--bc-tb);
+}
+
+li {
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-link);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#table-of-contents > h2 {
+  display: none;
+}
+
+#table-of-contents {
+  border: thin solid var(--bc-block);
+  background: var(--bg-block);
+}
+
+#toggle-toc {
+  display: none;
+}
+
+.toc-show {
+  display: block!important;
+}
+
+@media only screen and (max-width: 768px) {
+  #toggle-toc {
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2em;
+    line-height: 2em;
+    display: block;
+  }
+  #table-of-contents {
+    background: var(--bg);
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+  }
+  #table-of-contents a {
+    color: var(--clr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #table-of-contents {
+    font-size: 0.8rem;
+    position: fixed;
+    left: var(--mg);
+    top: var(--mg);
+    bottom: var(--mg);
+    width: var(--w-toc);
+    overflow-y: scroll;
+  }
+}
+
+#table-of-contents::-webkit-scrollbar {
+  display: none;
+}
+
+#table-of-contents {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.MathJax_Display {
+  font-size: 1.25em;
+}
+
+#toggle-theme {
+  border-width: 0;
+  line-height: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: var(--bg-block);
+  color: var(--clr-code);
+}
+
+#toggle-theme:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  #toggle-theme {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #toggle-theme {
+    position: absolute;
+    top: var(--mg);
+    right: var(--mg);
+    border-radius: 5px;
+  }
+}
+
+.theme-transition {
+  transition: all 0.5s;
+}
+
+.status {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    padding-left: .5em;
+    margin-left: 0;
+  }
+  li {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+/*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<div id="toggle-theme">dark theme</div><div id="toggle-toc">&#9776;</div>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org7f2f666">1. Projekt för Dörr</a>
+<ul>
+<li><a href="#org7815baf">1.1. Mått för ny Dörr</a></li>
+<li><a href="#org6a4d824">1.2. Ljud-dämpande Paneler till Dörr</a></li>
+</ul>
+</li>
+<li><a href="#orga7aae44">2. Projekt för Kök</a>
+<ul>
+<li><a href="#orgfbc5c6c">2.1. Skärbräda ovan kyl</a></li>
+<li><a href="#org2a81719">2.2. Kökskåp ovan köksbänk</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7f2f666" class="outline-2">
+<h2 id="org7f2f666"><span class="section-number-2">1</span> Projekt för Dörr</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7815baf" class="outline-3">
+<h3 id="org7815baf"><span class="section-number-3">1.1</span> Mått för ny Dörr</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Vänsterhängd
+</p>
+
+
+<div id="org5eabd31" class="figure">
+<p><img src="./Måttunderlag_för_Dörr.png" alt="Måttunderlag_för_Dörr image : title Måttunderlag_för_Dörr align: left" style="float:left;width:30%;margin:3ex" />
+</p>
+</div>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" style="float:left;width:50%;margin:3ex">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">305mm</td>
+<td class="org-left">Överkant till mitt</td>
+</tr>
+
+<tr>
+<td class="org-left">B</td>
+<td class="org-left">1200mm</td>
+<td class="org-left">Centrum till centrum</td>
+</tr>
+
+<tr>
+<td class="org-left">C</td>
+<td class="org-left">900mm</td>
+<td class="org-left">Överkant till centrum av kolv</td>
+</tr>
+
+<tr>
+<td class="org-left">D</td>
+<td class="org-left">790mm</td>
+<td class="org-left">Dörrens bredd</td>
+</tr>
+
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">1760mm</td>
+<td class="org-left">Dörrens höjd</td>
+</tr>
+
+<tr>
+<td class="org-left">F</td>
+<td class="org-left">45mm</td>
+<td class="org-left">Dörrens tjocklek</td>
+</tr>
+</tbody>
+</table>
+<br style="clear:both;" />
+<p>
+Om möjligt, höj dörrhandtag till standard höjd?
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6a4d824" class="outline-3">
+<h3 id="org6a4d824"><span class="section-number-3">1.2</span> Ljud-dämpande Paneler till Dörr</h3>
+<div class="outline-text-3" id="text-1-2">
+
+<div id="orgc1ddb13" class="figure">
+<p><img src="./Noise-Blok-MLV-5.jpg" alt="Noise-Blok-MLV-5.jpg" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>6 st hela paneler per Dörr ( 2 Dörrar, totalt 12 hela paneler )
+<ul class="org-ul">
+<li>Mått innre:
+<ul class="org-ul">
+<li>Bredd: 600mm</li>
+<li>Höjd: 345mm</li>
+<li>Djup: 20mm</li>
+</ul></li>
+<li>Mått yttre:
+<ul class="org-ul">
+<li>Bredd: 670mm</li>
+<li>Höjd: 405mm</li>
+<li>Djup: 2mm ( Tjockleken som minst på yttersta lagret )</li>
+</ul></li>
+</ul></li>
+<li>2 st mindre paneler till 'ytterdörr'
+<ul class="org-ul">
+<li>Mått:
+<ul class="org-ul">
+<li>Bredd: 600mm</li>
+<li>Höjd: 242mm</li>
+<li>Djup: 20mm</li>
+</ul></li>
+</ul></li>
+<li>2 st mindre paneler till badrumsdörr
+<ul class="org-ul">
+<li>Mått:
+<ul class="org-ul">
+<li>Bredd: 600mm</li>
+<li>Höjd: 180mm</li>
+<li>Djup: 20mm</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga7aae44" class="outline-2">
+<h2 id="orga7aae44"><span class="section-number-2">2</span> Projekt för Kök</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgfbc5c6c" class="outline-3">
+<h3 id="orgfbc5c6c"><span class="section-number-3">2.1</span> Skärbräda ovan kyl</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Max Utrymme:
+<ul class="org-ul">
+<li>Bredd: 595mm</li>
+<li>Höjd: 30mm - 35mm</li>
+<li>Djup: 590mm</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2a81719" class="outline-3">
+<h3 id="org2a81719"><span class="section-number-3">2.2</span> Kökskåp ovan köksbänk</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Max Utrymme:
+<ul class="org-ul">
+<li>Bredd: 1285mm</li>
+<li>Höjd: 600mm</li>
+<li>Djup: 250mm - 300mm, eller mindre</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+let cookie = document.cookie.split('; ').find(r => r.startsWith('org_html_themify_theme'))
+let theme = 'light'
+
+if (cookie) {
+  theme = cookie.split('=')[1]
+}
+
+let toggleThemeBtn = document.getElementById('toggle-theme')
+let toggleTocBtn = document.getElementById('toggle-toc')
+
+if (theme == 'light') {
+  useLightTheme();
+} else {
+  useDarkTheme();
+}
+
+function transition() {
+  document.body.classList.add('theme-transition')
+  setTimeout(() => document.body.classList.remove('theme-transition'), 500)
+}
+
+function useLightTheme(theme) {
+  document.body.dataset.theme = 'light'
+  toggleThemeBtn.innerHTML = 'dark theme'
+  document.cookie = 'org_html_themify_theme=light'
+}
+
+function useDarkTheme(theme) {
+  document.body.dataset.theme = 'dark'
+  toggleThemeBtn.innerHTML = 'light theme'
+  document.cookie = 'org_html_themify_theme=dark'
+}
+
+toggleThemeBtn.addEventListener('click', function() {
+  transition()
+  if (document.body.dataset.theme == 'light') {
+    useDarkTheme();
+  } else {
+    useLightTheme();
+  }
+})
+
+
+let toc = document.getElementById('table-of-contents')
+
+toggleTocBtn.addEventListener('click', function() {
+  toc.classList.add('toc-show')
+  toc.addEventListener('click', function() {
+    toc.classList.remove('toc-show')
+  })
+})
+/*]]>*/-->
+</script>
+</div>
+</body>
+</html>
