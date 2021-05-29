@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>www.joaqim.xyz - article</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/article.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2020-08-08T22:04:00+02:00</updated><entry><title>SimpleScreenshot C++ Library</title><link href="https://joaqim.xyz/simplescreenshot-c-library.html" rel="alternate"></link><published>2020-08-08T22:04:00+02:00</published><updated>2020-08-08T22:04:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/simplescreenshot-c-library.html</id><summary type="html">&lt;p&gt;SimpleScreenshot&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>www.joaqim.xyz - article</title><link href="https://joaqim.xyz/" rel="alternate"></link><link href="https://joaqim.xyz/feeds/article.atom.xml" rel="self"></link><id>https://joaqim.xyz/</id><updated>2020-08-08T22:04:00+02:00</updated><entry><title>SimpleScreenshot C++ Library</title><link href="https://joaqim.xyz/simplescreenshot-c-library.html" rel="alternate"></link><published>2020-08-08T22:04:00+02:00</published><updated>2020-08-08T22:04:00+02:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2020-08-08:/simplescreenshot-c-library.html</id><summary type="html">&lt;p&gt;SimpleScreen&amp;shy;shot&lt;/p&gt;
 </summary><content type="html">&lt;aside class="m-frame"&gt;
 &lt;h3&gt;A simple screeshot library (linux, windows):
-&lt;a href="https://github.com/joaqim/SimpleScreenshot"&gt;github.com/joaqim/SimpleScreenshot&lt;/a&gt;&lt;/h3&gt;
+&lt;a href="https://github.com/joaqim/SimpleScreenshot"&gt;git&amp;shy;hub.com/joaqim/SimpleScreen&amp;shy;shot&lt;/a&gt;&lt;/h3&gt;
 &lt;/aside&gt;
-</content><category term="article"></category><category term="c++"></category><category term="screenshot"></category><category term="ocr"></category><category term="github"></category></entry><entry><title>Voronoi Sphere</title><link href="https://joaqim.xyz/voronoi-sphere.html" rel="alternate"></link><published>2019-02-26T16:16:00+01:00</published><updated>2019-02-26T16:16:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-26:/voronoi-sphere.html</id><summary type="html">&lt;p&gt;Create and Render a Voronoi Sphere.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;&lt;a href="/VoronoiSphere"&gt;Emscripten Application&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/VoroniSphere"&gt;Github&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Create and Render a Voronoi Sphere using:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/xw0/spherical_voronoi_core"&gt;github.com/xw0/spherical_voronoi_core&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/mosra/magnum"&gt;github.com/mosra/magnum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/mosra/corrade"&gt;github.com/mosra/corrade&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="https://www.joaqim.xyz/VoronoiSphere" width="800" height="600" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="voronoi sphere"></category><category term="magnum"></category><category term="corrade"></category><category term="github"></category></entry><entry><title>UL Appen</title><link href="https://joaqim.xyz/ul-appen.html" rel="alternate"></link><published>2019-02-04T14:48:00+01:00</published><updated>2019-02-04T14:48:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-04:/ul-appen.html</id><summary type="html">&lt;p&gt;A swedish bus ticket application mock-up.&lt;/p&gt;
-&lt;p&gt;I created this while learning React.&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/ul"&gt;github.com/joaqim/ul&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/ul"&gt;UL Appen&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/Manad"&gt;Månad, Alla Zoner&lt;/a&gt;&lt;/p&gt;
+</content><category term="article"></category><category term="c++"></category><category term="screenshot"></category><category term="ocr"></category><category term="github"></category></entry><entry><title>Voronoi Sphere</title><link href="https://joaqim.xyz/voronoi-sphere.html" rel="alternate"></link><published>2019-02-26T16:16:00+01:00</published><updated>2019-02-26T16:16:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-26:/voronoi-sphere.html</id><summary type="html">&lt;p&gt;Cre&amp;shy;ate and Render a Voro&amp;shy;n&amp;shy;oi Sphere.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;a href="/VoronoiSphere"&gt;Em&amp;shy;scripten Ap&amp;shy;plic&amp;shy;a&amp;shy;tion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/VoroniSphere"&gt;Git&amp;shy;hub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cre&amp;shy;ate and Render a Voro&amp;shy;n&amp;shy;oi Sphere us&amp;shy;ing:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xw0/spherical_voronoi_core"&gt;git&amp;shy;hub.com/xw0/spher&amp;shy;ic&amp;shy;al_&amp;shy;voro&amp;shy;n&amp;shy;oi_&amp;shy;core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mosra/magnum"&gt;git&amp;shy;hub.com/mosra/mag&amp;shy;num&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mosra/corrade"&gt;git&amp;shy;hub.com/mosra/cor&amp;shy;rade&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://www.joaqim.xyz/VoronoiSphere" width="800" height="600" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="voronoi sphere"></category><category term="magnum"></category><category term="corrade"></category><category term="github"></category></entry><entry><title>UL Appen</title><link href="https://joaqim.xyz/ul-appen.html" rel="alternate"></link><published>2019-02-04T14:48:00+01:00</published><updated>2019-02-04T14:48:00+01:00</updated><author><name>Joaqim Planstedt</name></author><id>tag:joaqim.xyz,2019-02-04:/ul-appen.html</id><summary type="html">&lt;p&gt;A swedish bus tick&amp;shy;et ap&amp;shy;plic&amp;shy;a&amp;shy;tion mock-up.&lt;/p&gt;
+&lt;p&gt;I cre&amp;shy;ated this while learn&amp;shy;ing Re&amp;shy;act.&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href="https://github.com/joaqim/ul"&gt;git&amp;shy;hub.com/joaqim/ul&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/ul"&gt;UL Ap&amp;shy;pen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/Manad"&gt;Mån&amp;shy;ad, Alla Zon&amp;shy;er&lt;/a&gt;&lt;/p&gt;
 </summary><content type="html">&lt;iframe id="ul" src="https://www.joaqim.xyz/ul" width="315" height="560" frameborder=0&gt;&lt;/iframe&gt;</content><category term="article"></category><category term="react"></category><category term="javascript"></category><category term="github"></category></entry></feed>
