@@ -1,15 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-<!-- 2021-05-30 Sun 23:59 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
-<meta name="generator" content="Org Mode" />
-<style type="text/css"> img {max-width: 600px; }</style>
-<style type="text/css">
+  <meta charset="UTF-8" />
+  <title>Door | joaqim.xyz</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="/static/m-dark.css" />
+  <link rel="icon" href="https://joaqim.xyz/favicon.ico" type="image/x-ico" />
+  <link rel="canonical" href="https://joaqim.xyz/extra/home-diy.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+  <meta property="og:site_name" content="https://joaqim.xyz" />
+  <meta property="og:title" content="Door" />
+  <meta name="twitter:title" content="Door" />
+  <meta property="og:url" content="https://joaqim.xyz/extra/home-diy/index.html" />
+  <meta property="og:description" content="Home DIY" />
+  <meta name="twitter:description" content="Home DIY" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="page" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="https://joaqim.xyz/" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Joaqim.xyz</a>
+      <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-12 m-col-m-none">
+            <li><a href="https://joaqim.xyz/extra/home-diy">DIY</a></li>
+            <li><a href="https://joaqim.xyz/cv/">CV</a></li>
+            <li><a href="https://joaqim.xyz/pages/kyuu">Kyuu</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main>
+<article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>Door</h1>
+<!-- content -->
 <!--/*--><![CDATA[/*><!--*/
 *,
 *::before,
@@ -449,7 +483,6 @@ img {
 </head>
 <body>
 <div id="preamble" class="status">
-<div id="toggle-theme">dark theme</div><div id="toggle-toc">&#9776;</div>
 </div>
 <div id="content">
 <div id="table-of-contents">
@@ -856,5 +889,22 @@ toggleTocBtn.addEventListener('click', function() {
 /*]]>*/-->
 </script>
 </div>
+</body>
+
+<!-- /content -->
+      </div>
+    </div>
+  </div>
+</article>
+</main>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>www.joaqim.xyz - Powered by <a href="https://getpelican.com">Pel&shy;ic&shy;an</a> and <a href="https://mcss.mosra.cz">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
 </body>
 </html>
