@@ -15,6 +15,7 @@ PATH = "content"
 STATIC_PATHS = ["extra"]
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
+    "extra/404.html": {"path": "404.html"},
 }
 
 M_FAVICON = ("favicon.ico", "image/x-ico")
