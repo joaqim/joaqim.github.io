@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = "Joaqim Planstedt"
-SITENAME = "www.joaqim.xyz"
-SITEURL = "www.joaqim.xyz"
+SITENAME = "www.joaqim.com"
+SITEURL = "www.joaqim.com"
 PATH = "content"
 
 
@@ -55,7 +55,7 @@ PAGE_PATHS = ["pages"]
 # RELATIVE_URLS = True
 
 # Top navbar
-M_SITE_LOGO_TEXT = "Joaqim.xyz"
+M_SITE_LOGO_TEXT = "Joaqim.com"
 
 M_LINKS_NAVBAR1 = [
     # ('Features', 'features/', 'features', []),

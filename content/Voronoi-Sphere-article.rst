@@ -25,6 +25,6 @@ Create and Render a Voronoi Sphere using:
 
 .. raw:: html
 
-   <iframe src="https://www.joaqim.xyz/VoronoiSphere" width="800" height="600" frameborder=0></iframe>
+   <iframe src="https://www.joaqim.com/VoronoiSphere" width="800" height="600" frameborder=0></iframe>
 
 
