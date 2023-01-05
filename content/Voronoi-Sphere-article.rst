@@ -10,7 +10,7 @@ Voronoi Sphere
 
 `Emscripten Application </VoronoiSphere>`_
 
-Source: `Github <https://github.com/joaqim/VoroniSphere>`_
+Source: `Github <https://github.com/joaqim/VoronoiSphere>`_
 
 Create and Render a Voronoi Sphere using:
 
